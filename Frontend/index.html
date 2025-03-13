@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Network Trainer</title>
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <h1>Neural Network Trainer (WebAssembly)</h1>
+
+    <label for="iterations">Iterations:</label>
+    <input type="number" id="iterations" value="10000"><br>
+
+    <label for="epsilon">Epsilon:</label>
+    <input type="number" id="epsilon" step="0.01" value="0.1"><br>
+
+    <label for="learning-rate">Learning Rate:</label>
+    <input type="number" id="learning-rate" step="0.01" value="0.1"><br>
+
+    <button id="train-btn">Train Network</button>
+    <p id="output"></p>
+</body>
+</html>
